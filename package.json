@@ -10,12 +10,16 @@
     "personal",
     "logo"
   ],
+  "scripts" : {
+    "postinstall" : "node_modules/.bin/grunt"
+  },
   "author":"Mateus Zitelli",
   "main":"src/mz.js",
   "license": "GPLv2",
   "devDependencies":{
     "grunt-contrib-jshint":"0.10.x",
     "grunt-contrib-uglify":"0.4.x",
-    "grunt-contrib-concat":"0.4.x"
+    "grunt-contrib-concat":"0.4.x",
+    "grunt":"0.4.x"
   }
 }
